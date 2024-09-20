@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+import MainBanner from "./MainBanner";
 
-export default Home
+const Home = () => (
+  <main className="main">
+    <MainBanner/>
+  </main>
+);
+
+export default Home;

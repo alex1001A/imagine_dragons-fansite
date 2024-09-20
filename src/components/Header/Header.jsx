@@ -14,7 +14,7 @@ const Header = () => (
         <Logo />
         <nav className="menu">
           {MENU.map(({ link, name }, index) => (
-            <ScrollAnimation key={link} className="menu-item" animateIn="fadeInDown" delay={index * 100} offset={0}>
+            <ScrollAnimation key={link} className="menu-item" animateIn="fadeInDown" delay={index * 100} offset={0} duration={500}>
               <Link to={`/${link}`}>{name}</Link>
             </ScrollAnimation>
           ))}

@@ -41,7 +41,7 @@ header {
       font-size: 12px;
       font-weight: 700;
       text-transform: uppercase;
-      transition: color 0.25s ease;
+      transition: all 0.25s ease;
 
       &:hover {
         color: $action;
