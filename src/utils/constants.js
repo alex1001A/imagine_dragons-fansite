@@ -1,3 +1,5 @@
+export const MAIN_URL = `https://graphql.contentful.com/content/v1/spaces/[YOUR_SPACE_ID]/explore?access_token=[YOUR_ACCESS_TOKEN]`
+
 export const MENU = [
   {
     name: "Concerts",

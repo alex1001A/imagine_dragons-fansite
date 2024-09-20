@@ -1,0 +1,13 @@
+.banner {
+    min-height: 540px;
+    position: relative;
+    background-image: url(../images/dan-reynolds.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &-image {
+        @include center;
+        top: 36%;
+    }
+}
